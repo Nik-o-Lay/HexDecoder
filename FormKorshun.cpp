@@ -1,6 +1,6 @@
 #include "FormKorshun.h"
 #include "ui_FormKorshun.h"
-#include <QException>
+#include <QRegularExpression>
 
 FormKorshun::FormKorshun(QWidget *parent) :
     Decoder(parent),
