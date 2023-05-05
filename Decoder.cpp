@@ -1,5 +1,4 @@
 #include "Decoder.h"
-#include <QDebug>
 #include <QMessageBox>
 
 Decoder::Decoder(QWidget *parent) : QWidget(parent)
