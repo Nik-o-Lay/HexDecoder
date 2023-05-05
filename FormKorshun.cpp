@@ -1,7 +1,5 @@
 #include "FormKorshun.h"
 #include "ui_FormKorshun.h"
-
-#include <QDebug>
 #include <QException>
 
 FormKorshun::FormKorshun(QWidget *parent) :
