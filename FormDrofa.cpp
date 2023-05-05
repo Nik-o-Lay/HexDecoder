@@ -8,9 +8,9 @@ FormDrofa::FormDrofa(QWidget *parent) :
     ui(new Ui::FormDrofa),
     m_msgProtocolDrofa{
         R"(^)"
-        R"((?:(?:0x|0X)?(?:FF|ff)[[:space:]]){2})" // "FF FF " lower- or uppercase with optional 0x or 0X prefix
+        R"((?:(?:0x|0X)?(?:FF|ff)[[:space:]]){2})" // "FF FF " lower or uppercase with optional 0x or 0X prefix
         R"((?:(?:0x|0X)?(?:[[:xdigit:]]{2})[[:space:]]){1,4})" // 1 to 4 "hex " with optional 0x or 0X prefix
-        R"((?:(?:0x|0X)?(?:EF|ef)[[:space:]](?:0x|0X)?(?:EF|ef)))" // "EF EF" lower- or uppercase with optional 0x or 0X prefix
+        R"((?:(?:0x|0X)?(?:EF|ef)[[:space:]](?:0x|0X)?(?:EF|ef)))" // "EF EF" lower or uppercase with optional 0x or 0X prefix
         R"($)"
                       },
     m_msgDrofa{},  m_intByteStateDrofa{}, m_byteArrayDrofa{}
