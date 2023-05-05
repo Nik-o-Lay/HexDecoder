@@ -1,7 +1,7 @@
 #include "FormDrofa.h"
 #include "ui_FormDrofa.h"
 #include <QRegularExpression>
-#include <QDebug>
+
 
 FormDrofa::FormDrofa(QWidget *parent) :
     Decoder(parent),
