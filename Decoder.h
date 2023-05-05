@@ -1,7 +1,6 @@
 #ifndef DECODER_H
 #define DECODER_H
 
-#include <QRegularExpression>
 #include <QWidget>
 
 class Decoder : public QWidget
